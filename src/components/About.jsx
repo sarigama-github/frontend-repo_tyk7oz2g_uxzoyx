@@ -3,7 +3,7 @@ export default function About() {
     <section id="over" className="py-20 bg-neutral-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">Over PicoYellow</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">Over Bello Blue</h2>
           <p className="mt-4 text-neutral-300">Wij zijn een Nederlands online marketingbureau met een obsessie voor vindbaarheid en performance. Geen vage beloftes, maar een duidelijke strategie en maandelijkse groei.</p>
           <ul className="mt-6 space-y-2 text-neutral-300 list-disc list-inside">
             <li>Specialisten in SEO en conversiegerichte websites</li>

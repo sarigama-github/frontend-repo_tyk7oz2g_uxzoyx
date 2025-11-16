@@ -5,7 +5,7 @@ export default function Footer(){
         <div>
           <div className="flex items-center space-x-2">
             <div className="h-8 w-8 rounded-lg bg-yellow-400 shadow ring-1 ring-yellow-300" />
-            <span className="font-extrabold tracking-tight text-white">PicoYellow</span>
+            <span className="font-extrabold tracking-tight text-white">Bello Blue</span>
           </div>
           <p className="mt-4 text-sm text-neutral-400">Online marketingbureau gespecialiseerd in SEO en websites. Gevestigd in Nederland.</p>
         </div>
@@ -21,12 +21,12 @@ export default function Footer(){
         <div>
           <h4 className="font-semibold text-white">Contact</h4>
           <ul className="mt-3 space-y-2 text-sm text-neutral-300">
-            <li>info@picoyellow.nl</li>
+            <li>info@belloblue.nl</li>
             <li>KVK en btw op aanvraag</li>
           </ul>
         </div>
       </div>
-      <div className="border-t border-neutral-800 py-4 text-center text-xs text-neutral-500">© {new Date().getFullYear()} PicoYellow — Alle rechten voorbehouden.</div>
+      <div className="border-t border-neutral-800 py-4 text-center text-xs text-neutral-500">© {new Date().getFullYear()} Bello Blue — Alle rechten voorbehouden.</div>
     </footer>
   )
 }

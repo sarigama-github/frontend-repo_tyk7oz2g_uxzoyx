@@ -15,7 +15,7 @@ export default function Hero() {
             Groei met SEO en bliksemsnelle websites
           </h1>
           <p className="mt-4 text-lg text-neutral-300">
-            PicoYellow helpt ambitieuze bedrijven met topposities in Google en conversiegerichte websites. Data-gedreven, transparant en snel.
+            Bello Blue helpt ambitieuze bedrijven met topposities in Google en conversiegerichte websites. Data-gedreven, transparant en snel.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <a href="#contact" className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition">

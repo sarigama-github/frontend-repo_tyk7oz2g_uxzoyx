@@ -24,7 +24,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <a href="#home" onClick={(e)=>{e.preventDefault();scrollTo('home')}} className="flex items-center space-x-2">
           <div className="h-8 w-8 rounded-lg bg-yellow-400 shadow ring-1 ring-yellow-300" />
-          <span className="font-extrabold tracking-tight text-white">PicoYellow</span>
+          <span className="font-extrabold tracking-tight text-white">Bello Blue</span>
         </a>
 
         <div className="hidden md:flex items-center space-x-8 text-sm font-medium text-neutral-300">

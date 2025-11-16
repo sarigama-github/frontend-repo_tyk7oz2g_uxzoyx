@@ -19,21 +19,21 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="proces" className="py-20 bg-white">
+    <section id="proces" className="py-20 bg-neutral-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900">Aanpak</h2>
-          <p className="mt-3 text-gray-600">Transparant, data-gedreven en gericht op lange termijn groei.</p>
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">Aanpak</h2>
+          <p className="mt-3 text-neutral-300">Transparant, data-gedreven en gericht op lange termijn groei.</p>
         </div>
 
-        <ol className="mt-10 grid md:grid-cols-2 gap-6 counter-reset list-none">
+        <ol className="mt-10 grid md:grid-cols-2 gap-6 list-none">
           {steps.map((s, i) => (
-            <li key={i} className="relative rounded-2xl border border-gray-200 p-6 bg-white">
-              <div className="absolute -top-3 -left-3 h-10 w-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-extrabold shadow">
+            <li key={i} className="relative rounded-2xl border border-neutral-800 p-6 bg-neutral-900">
+              <div className="absolute -top-3 -left-3 h-10 w-10 rounded-full bg-yellow-400 text-black flex items-center justify-center font-extrabold shadow">
                 {i + 1}
               </div>
-              <h3 className="mt-2 font-bold text-gray-900">{s.title}</h3>
-              <p className="mt-2 text-sm text-gray-600">{s.desc}</p>
+              <h3 className="mt-2 font-bold text-white">{s.title}</h3>
+              <p className="mt-2 text-sm text-neutral-300">{s.desc}</p>
             </li>
           ))}
         </ol>

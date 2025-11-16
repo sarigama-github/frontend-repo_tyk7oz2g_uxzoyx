@@ -18,19 +18,19 @@ const cases = [
 
 export default function Cases() {
   return (
-    <section id="cases" className="py-20 bg-gradient-to-b from-white to-yellow-50">
+    <section id="cases" className="py-20 bg-neutral-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900">Resultaten</h2>
-          <p className="mt-3 text-gray-600">Geen loze beloftes — concrete groei en duidelijke KPI’s.</p>
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white">Resultaten</h2>
+          <p className="mt-3 text-neutral-300">Geen loze beloftes — concrete groei en duidelijke KPI’s.</p>
         </div>
 
         <div className="mt-10 grid md:grid-cols-3 gap-6">
           {cases.map((c, i) => (
-            <div key={i} className="rounded-2xl border border-amber-200 bg-white p-6 shadow-sm">
-              <div className="text-amber-700 font-bold">{c.result}</div>
-              <div className="mt-1 text-gray-900 font-semibold">{c.name}</div>
-              <p className="mt-2 text-gray-600 text-sm">{c.details}</p>
+            <div key={i} className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-sm hover:border-yellow-400/60 transition">
+              <div className="text-yellow-400 font-bold">{c.result}</div>
+              <div className="mt-1 text-white font-semibold">{c.name}</div>
+              <p className="mt-2 text-neutral-300 text-sm">{c.details}</p>
             </div>
           ))}
         </div>
